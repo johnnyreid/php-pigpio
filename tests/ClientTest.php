@@ -29,7 +29,7 @@ class ClientTest extends TestCase
      */
     private $service;
 
-    protected function setUp()
+    protected function setUp() : void
     {
         $this->socket = $this->getMockBuilder(Socket::class)->disableOriginalConstructor()->getMock();
         $this->service = new Client($this->socket);

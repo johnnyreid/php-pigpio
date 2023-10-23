@@ -1,3 +1,8 @@
-.idea/*
-vendor
+build
+.idea/
+/vendor/
+composer.lock
+composer.phar
+.phpunit.result.cache
+/phpunit.phar
 test*.php
